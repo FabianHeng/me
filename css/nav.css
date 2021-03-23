@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+.nav-wrapper {
+    z-index: 999;
+}
+
 .logo {
     color: #212529;
     text-transform: uppercase;
@@ -111,7 +115,7 @@ nav a:hover:after {
         width: 100%;
         opacity: 0;
         transition: transform 0.5s ease-in;
-        z-index: 999;
+        z-index: 998;
     }
 
     nav a{
