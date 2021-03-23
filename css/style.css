@@ -261,11 +261,13 @@ body {
 .projects-content h3 {
     font-size: 1.8em;
     margin: 5px 0 5px 0;
+    color: #212529;
 }
 
 .projects-content h6 {
     font-size: 1.2em;
     margin: 0 0 25px 0;
+    color: #212529;
 }
 
 .projects-content p {
