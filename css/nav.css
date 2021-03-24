@@ -144,6 +144,10 @@ nav a:hover:after {
     .burger {
         display: block;
     }
+
+    .onPage {
+        font-weight: normal;
+    }
 }
 
 .nav-active {
