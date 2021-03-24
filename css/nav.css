@@ -125,7 +125,7 @@ nav a:hover:after {
     .navbar li {
         opacity: 0;
         font-size: 1.5em;
-        pointer-events: none;
+        font-size: 0px;
     }
 
     .burger {
@@ -141,11 +141,11 @@ nav a:hover:after {
     from {
         opacity: 0;
         transform: translateX(50px);
-        pointer-events: none;
+        font-size: 0px;
     } to {
         opacity: 1;
         transform: translateX(0px);
-        pointer-events: all;
+        font-size: 1.5em;
     }
 }
 
