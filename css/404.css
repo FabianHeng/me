@@ -1,0 +1,46 @@
+.main-404 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-404 img {
+    width: 30%;
+}
+
+.main-404 h1 {
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-top: 1.5em;
+}
+
+.main-404 h3 {
+    color: #656270;
+}
+
+.main-404 a {
+    margin-top: 2em;
+    background-color: #00AEDB;
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-size: 1em;
+    color: #fafcf8;
+    box-shadow: 2px 2px 15px 0px #ccc;
+    transition: 0.3s;
+}
+
+.main-404 a:hover {
+    transform: translateY(-5px);
+    border-radius: 20px;
+}
+
+/* Start of Media */
+@media screen and (max-width: 768px) {
+    .main-404 img {
+        width: 60%;
+    }
+}

@@ -89,7 +89,7 @@ footer img {
 }
 
 .copyright {
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: 0.8em;
     margin-bottom: 2em;
 }
@@ -102,5 +102,20 @@ footer img {
 
     footer img {
         width: 10%;
+    }
+
+    .social-icons a:nth-child(1) {
+        color: #fafcf8;
+        background-color: #1A1E22;
+    }
+    
+    .social-icons a:nth-child(2) {
+        color: #fafcf8;
+        background-color: #0C64C5;
+    }
+    
+    .social-icons a:nth-child(3) {
+        color: #fafcf8;
+        background-color: #F70000;
     }
 }
