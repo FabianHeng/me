@@ -2,13 +2,20 @@
 
 /* Start of navigation bar styling */
 nav {
+    position: fixed;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
     height: 8vh;
     background-color: #fafcf8;
     font-family: 'Lato', sans-serif;
-    padding-top: 1.2em;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    z-index: 999;
+    transition: 0.5s;
 }
 
 a {
@@ -16,8 +23,10 @@ a {
     text-decoration: none;
 }
 
-.nav-wrapper {
-    z-index: 999;
+nav.sticky {
+    padding: 1em 0 2.5em 0;
+    height: 0;
+    box-shadow: 0 4px 10px -2px #ccc;
 }
 
 .logo {
@@ -118,6 +127,11 @@ nav a:hover:after {
         z-index: 998;
     }
 
+    nav.sticky {
+        padding: 2em 0;
+        box-shadow: 0 4px 10px -2px #ccc;
+    }
+
     nav a{
         position: relative;
     }
@@ -155,7 +169,7 @@ nav a:hover:after {
     } to {
         opacity: 1;
         height: 60vh;
-        box-shadow: 0 4px 10px -2px #ccc;
+        box-shadow: 0 4px 10px -10px #ccc;
     }
 }
 

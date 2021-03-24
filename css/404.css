@@ -3,14 +3,13 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
 .main-404 img {
-    width: 30%;
+    width: 50%;
 }
 
 .main-404 h1 {

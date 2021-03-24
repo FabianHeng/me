@@ -1,0 +1,21 @@
+.events-main {
+    text-align: center;
+    height: 88vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.events-main img {
+    width: 40%;
+}
+
+.events-main h1 {
+    font-size: 3em;
+    margin: 2em 0 0.2em 0;
+}
+
+.events-main aside {
+    font-size: 1em;
+}
