@@ -105,7 +105,7 @@ body {
     border-right: 2px solid #656270;
 }
 
-.talk-btn {
+.btn {
     width: fit-content;
     background: none;
     text-align: center;
@@ -121,11 +121,11 @@ body {
     border-radius: 10px;
 }
 
-.talk-btn:hover {
+.btn:hover {
     color: #fafcf8;
 }
 
-.talk-btn::before {
+.btn::before {
     content: '';
     position: absolute;
     left: 0;
@@ -138,7 +138,7 @@ body {
     z-index: -1;
 }
 
-.talk-btn:hover::before {
+.btn:hover::before {
     height: 180%;
 }
 

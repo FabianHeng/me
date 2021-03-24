@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .main-404 img {
@@ -20,22 +21,11 @@
 
 .main-404 h3 {
     color: #656270;
+    font-weight: normal;
 }
 
-.main-404 a {
+.main-404 button {
     margin-top: 2em;
-    background-color: #00AEDB;
-    padding: 15px 10px;
-    border-radius: 10px;
-    font-size: 1em;
-    color: #fafcf8;
-    box-shadow: 2px 2px 15px 0px #ccc;
-    transition: 0.3s;
-}
-
-.main-404 a:hover {
-    transform: translateY(-5px);
-    border-radius: 20px;
 }
 
 /* Start of Media */
