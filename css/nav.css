@@ -116,7 +116,7 @@ nav a:hover:after {
         position: absolute;
         right: 0px;
         height: 0px;
-        top: 8vh;
+        top: 9vh;
         background-color: #fafcf8;
         display: flex;
         flex-direction: column;
