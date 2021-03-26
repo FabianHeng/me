@@ -118,7 +118,7 @@ section {
     height: 300px;
     width: 100%;
     left: 0;
-    z-index: 20;
+    z-index: 21;
     background: linear-gradient(to top, #fafcf8, transparent);
 }
 
