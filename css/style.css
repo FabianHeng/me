@@ -84,6 +84,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: auto;
+    width: 80%;
 }
 
 .main h1 {
