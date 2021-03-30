@@ -25,7 +25,7 @@
     position: absolute;
     z-index: 30;
     line-height: 4rem;
-    top: calc(50% - 2rem);
+    top: calc(45% - 2rem);
     width: 100%;
     text-align: center;
     font-size: 5rem;
@@ -34,42 +34,18 @@
     z-index: 19;
 }
 
-.img-mountain1 {
+.img-ground {
     position: absolute;
-    width: 1500px;
+    width: 2000px;
     bottom: -100px;
     right: 0;
     z-index: 20;
 }
 
-.img-mountain2 {
-    position: absolute;
-    width: 2000px;
-    bottom: -300px;
-    left: -70px;
-    z-index: 18;
-}
-
-.img-mountain3 {
-    position: absolute;
-    width: 900px;
-    bottom: 150px;
-    right: 0;
-    z-index: 17;
-}
-
-.img-person {
-    position: absolute;
-    width: 650px;
-    bottom: -100px;
-    left: -70px;
-    z-index: 21;
-}
-
 .img-sky {
     position: absolute;
-    width: 2100px;
-    bottom: 100px;
+    width: 2000px;
+    bottom: 0;
     right: 0;
 }
 
@@ -127,47 +103,12 @@ section {
     .about-splash {
         font-size: 2.5em;
     }
-
-    .img-mountain1 {
-        width: 1500px;
-        bottom: -100px;
-        right: 0;
-    }
-    
-    .img-mountain2 {
-        width: 1100px;
-        bottom: -100px;
-        left: 0;
-    }
-    
-    .img-mountain3 {
-        width: 900px;
-        bottom: 150px;
-        right: 0;
-    }
-    
-    .img-person {
-        width: 650px;
-        bottom: -100px;
-        left: -70px;
-    }
-    
-    .img-sky {
-        width: 2100px;
-        bottom: 250px;
-        right: 0;
-    }
 }
 
 @media screen and (max-width: 768px) {
     .about-splash {
-        font-size: 1.3em;
-    }
-
-    .img-person {
-        width: 450px;
-        bottom: -50px;
-        left: -70px;
+        font-size: 1.5em;
+        top: calc(50% - 3.5rem);
     }
 
     .about-wrapper {
