@@ -83,6 +83,10 @@ section {
     position: relative;
 }
 
+.about-content p {
+    line-height: 1.5em;
+}
+
 .about-border {
     position: relative;
     width: 20%;
@@ -138,16 +142,25 @@ section {
 
 /* Start of Media */
 @media screen and (max-width: 1200px) {
+    .about-img {
+        height: 1000px;
+    }
+    
     .about-splash {
         font-size: 2.5em;
     }
 
     .about-wrapper {
         flex-direction: column;
+        height: fit-content;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .about-img {
+        height: 100vh;
+    }
+
     .about-splash {
         font-size: 1.5em;
         top: calc(50% - 3.5rem);
@@ -155,5 +168,6 @@ section {
 
     .about-wrapper {
         width: fit-content;
+        height: fit-content;
     }
 }
