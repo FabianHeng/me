@@ -84,16 +84,19 @@ textarea {
 }
 
 .submit-btn {
-    padding: 0.6em 1.3em;
+    width: fit-content;
     background: none;
-    background-color: #ccc;
-    font-size: 0.95em;
-    color: #fafcf8;
-    outline: none;
+    text-align: center;
+    border: 2px solid #00aedb;
+    margin: 0 auto;
+    padding: 13px 20px;
+    font-size: 20px;
     cursor: pointer;
-    transition: 0.3s;
-    border-radius: 50px;
-    border: 0.5px solid transparent;
+    color: #00aedb;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px;
 }
 
 .submit-btn:hover {
