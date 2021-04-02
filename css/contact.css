@@ -100,3 +100,13 @@ textarea {
     color: #212529;
     border: 0.5px solid #212529;
 }
+
+/* Start of Media */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 768px) {
+    .contact-wrapper {
+        width: 80%;
+    }
+}
