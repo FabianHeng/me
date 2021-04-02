@@ -85,6 +85,7 @@ textarea {
 
 .submit-btn {
     padding: 0.6em 1.3em;
+    background: none;
     background-color: #ccc;
     font-size: 0.95em;
     color: #fafcf8;
@@ -93,7 +94,6 @@ textarea {
     transition: 0.3s;
     border-radius: 50px;
     border: 0.5px solid transparent;
-    outline: none;
 }
 
 .submit-btn:hover {
@@ -103,9 +103,6 @@ textarea {
 }
 
 /* Start of Media */
-@media screen and (max-width: 1200px) {
-}
-
 @media screen and (max-width: 768px) {
     .contact-wrapper {
         width: 80%;
