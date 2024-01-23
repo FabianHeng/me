@@ -432,6 +432,10 @@ body {
         width: 45%;
     }
 
+    .education img {
+        max-width: 65%;
+    }
+
     .projects-card {
         flex-direction: column;
     }
