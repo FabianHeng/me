@@ -176,7 +176,7 @@ body {
 }
 
 .education img {
-    width: 50%;
+    max-width: 50%;
     margin-bottom: -10px;
     transition: 0.3s;
 }
