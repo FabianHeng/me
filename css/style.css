@@ -292,7 +292,15 @@ body {
     margin-top: 10px;
 }
 
-.skill {
+.lang-skill {
+    border: 2px solid #00b159;
+    background-color: #00b159;
+    color: #fafcf8;
+    border-radius: 5px;
+    padding: 0.3em;
+}
+
+.prog-skill {
     border: 2px solid #00b159;
     border-radius: 5px;
     padding: 0.3em;
