@@ -843,7 +843,7 @@ a:hover {
     }
 
     .img {
-        min-height: fit-content;
+        min-height: auto;
         margin-top: 20px;
         transform: none;
     }
