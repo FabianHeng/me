@@ -454,6 +454,7 @@ a:hover {
     align-items: center;
     margin: auto;
     z-index: 2;
+    margin-top: 35px;
 }
 
 .splash-top-text {
