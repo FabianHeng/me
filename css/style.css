@@ -123,14 +123,14 @@ a:hover {
     letter-spacing: 2px;
 }
 
-.download {
+.button-blue {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-.download a {
+.button-blue a {
     display: inline-block;
     padding: 12px 20px;
     font-size: 15px;
@@ -146,10 +146,42 @@ a:hover {
     box-shadow: 3px 3px 10px rgba(var(--light-grey), 0.3);
 }
 
-.download a:hover {
+.button-blue a:hover {
     background-color: rgba(var(--dark-blue), 1);
     box-shadow: 6px 6px 15px rgba(var(--light-grey), 0.4);
     color: rgba(var(--white), 1);
+    border: 1px solid rgba(var(--dark-blue), 1);
+    transform: translateY(-2px);
+}
+
+.button-dark-blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-dark-blue a {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    color: rgba(var(--white), 1);
+    background-color: rgba(var(--blue), 1);
+    border: 1px solid rgba(var(--white), 1);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 10px rgba(var(--light-grey), 0.3);
+}
+
+.button-dark-blue a:hover {
+    background-color: rgba(var(--white), 1);
+    box-shadow: 6px 6px 15px rgba(var(--light-grey), 0.4);
+    color: rgba(var(--dark-blue), 1);
     border: 1px solid rgba(var(--dark-blue), 1);
     transform: translateY(-2px);
 }
@@ -815,6 +847,13 @@ a:hover {
     text-align: justify;
 }
 
+/* Project Section */
+.project {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
 @media screen and (max-width: 1200px) {
     /* Projects Section */
     .projects-body {
@@ -902,7 +941,11 @@ a:hover {
     }
 
     /* Components */
-    .download a {
+    .button-blue a {
+        font-size: 10px;
+    }
+
+    .button-dark-blue a {
         font-size: 10px;
     }
 
