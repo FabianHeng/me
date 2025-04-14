@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Trackspence</title>
+        <title>Fabian Heng | Projects</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -97,6 +97,7 @@
                 document.getElementById("p-title").innerText = project.title;
                 document.getElementById("p-description").innerText = project.description;
                 document.getElementById("p-content").innerHTML = marked.parse(project.content);
+                document.title = `Fabian Heng | ${project.title}`;
                 
                 // Set video/image
                 const videoElement = document.querySelector('.p-splash video');
