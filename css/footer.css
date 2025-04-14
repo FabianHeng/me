@@ -70,6 +70,8 @@ footer ul {
 
 footer img {
     width: 6%;
+    min-width: 50px;
+    max-width: 70px;
     margin: 0 auto;
     margin-top: 8em;
     border-radius: 15%;
@@ -104,10 +106,6 @@ footer img {
 @media screen and (max-width: 768px) {
     .email {
         margin-top: 2em;
-    }
-
-    footer img {
-        width: 10%;
     }
 
     .social-icons a:nth-child(1) {
